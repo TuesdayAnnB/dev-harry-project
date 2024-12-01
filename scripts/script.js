@@ -51,7 +51,7 @@ $(() => {
         $("#toppings").append(
           `<div class="form-check" id="additions"> <input class="form-check-input" type="checkbox" value="${altIngredients[i]}" id="${toppingsIDs[i]}"> <label class="form-check-label" for="flexCheckDefault">${altIngredients[i]}</label> </div>`
         );
-        console.log(i);
+        // console.log(i);
       }
     } else {
       console.log("not special :(");
@@ -59,7 +59,7 @@ $(() => {
         $("#toppings").append(
           `<div class="form-check" id="additions"> <input class="form-check-input" type="checkbox" value="${ingredients[i]}" id="chocshavings"> <label class="form-check-label" for="flexCheckDefault">${ingredients[i]}</label> </div>`
         );
-        console.log(i);
+        // console.log(i);
       }
     }
   });
